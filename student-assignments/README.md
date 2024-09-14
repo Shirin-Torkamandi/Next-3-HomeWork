@@ -36,7 +36,6 @@ In your homework you should show three parts for : users, posts, recipes
 1. **Complete the Project:**
 
    - Ensure that all the specified tasks are implemented.
-   - Test the website to confirm all functionalities work correctly, including the homepage, search, filter, country detail pages, dark/light mode, and responsiveness.
 
 2. **Prepare the Code:**
 
