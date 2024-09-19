@@ -1,12 +1,11 @@
 "use client";
-import { Dancing_Script } from 'next/font/google'
- 
-const dancingScript = Dancing_Script({
-  weight: '500',
-  subsets: ['latin'],
-  display: 'swap',
-})
+import { Dancing_Script } from "next/font/google";
 
+const dancingScript = Dancing_Script({
+  weight: "500",
+  subsets: ["latin"],
+  display: "swap",
+});
 
 import { Card, CardContent, Typography } from "@mui/material";
 import { blue } from "@mui/material/colors";
@@ -20,7 +19,11 @@ export default function MainInHome() {
       <Grid item size={{ xs: 12 }}>
         <Card onClick={() => router.push("/users")}>
           <CardContent sx={{ backgroundColor: blue[200] }}>
-            <Typography variant="h4" component="h2" className={dancingScript.className}>
+            <Typography
+              variant="h4"
+              component="h2"
+              className={dancingScript.className}
+            >
               Users
             </Typography>
           </CardContent>
@@ -29,7 +32,11 @@ export default function MainInHome() {
       <Grid item size={{ xs: 12 }}>
         <Card onClick={() => router.push("/posts")}>
           <CardContent sx={{ backgroundColor: blue[200] }}>
-            <Typography variant="h4" component="h2" className={dancingScript.className}>
+            <Typography
+              variant="h4"
+              component="h2"
+              className={dancingScript.className}
+            >
               Posts
             </Typography>
           </CardContent>
@@ -38,7 +45,11 @@ export default function MainInHome() {
       <Grid item size={{ xs: 12 }}>
         <Card onClick={() => router.push("/recipes")}>
           <CardContent sx={{ backgroundColor: blue[200] }}>
-            <Typography variant="h4" component="h2" className={dancingScript.className}>
+            <Typography
+              variant="h4"
+              component="h2"
+              className={dancingScript.className}
+            >
               Recipes
             </Typography>
           </CardContent>
